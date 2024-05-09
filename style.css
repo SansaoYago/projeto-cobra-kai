@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 body { 
+    height: 98vh;
     background: black url('imagens/cobra-kai-background-1320.jpg') center center no-repeat fixed;
     background-size: cover;
 }
