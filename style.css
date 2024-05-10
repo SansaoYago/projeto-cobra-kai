@@ -1,7 +1,58 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'fight';
+    src: url('fontes/F-Rotten_Font.ttf') format(truetype);
+    font-size: normal;
+    font-weight: normal;
+}
+
+:root {
+    --cor1: #f1f1009f;
+    --cor2: #8B8B18;
+    --cor3: #606021;
+    --cor4: #36361B;
+    --cor5: #530c07;
+
+    --fonte-fight: 'fight', cursive, sans-serif;
+    --fonte-padrao: Arial, Helvetica, Verdana, sans-serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
 body { 
-    height: 98vh;
+    height: 97.5vh;
     background: black url('imagens/cobra-kai-background-1320.jpg') center center no-repeat fixed;
     background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+
+header {
+    display: block;
+    height: 150px;
+}
+
+header  nav {
+    display: block;
+    text-align: right;
+}
+
+header a {
+    text-decoration: none;
+    font-family: var(--fonte-fight);
+    color: var(--cor1);
+    font-size: 2em;
+    font-weight: lighter;
+    padding: 5px;
+    transition-duration: 0.4s;
+}
+
+header a:hover {
+    background-color: var(--cor1);
+    color: var(--cor5);
+    border-radius: 8px;
 }
