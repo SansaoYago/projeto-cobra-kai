@@ -38,7 +38,7 @@ header {
 
 header  nav {
     display: block;
-    text-align: right;
+    text-align: center;
 }
 
 header a {
@@ -47,7 +47,7 @@ header a {
     color: var(--cor1);
     font-size: 2em;
     font-weight: lighter;
-    padding: 5px;
+    padding: 8px;
     transition-duration: 0.4s;
 }
 
