@@ -40,9 +40,9 @@ header > h1 {
     display: inline-block;
     font-family: var(--fonte-cobra-kai);
     color: rgb(181, 0, 0);
-    font-size: 4vw;
+    font-size: 280%;
     letter-spacing: 0.2em;
-    padding-left: 5em;
+    padding-left: 2em;
 }
 
 header > nav {
