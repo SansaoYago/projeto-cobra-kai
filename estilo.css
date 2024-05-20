@@ -48,7 +48,7 @@ header > h1 {
 header > nav {
     display: inline-block;
     position: relative;
-    left: 8%;
+    left: 4%;
 }
 
 header > nav > a {
@@ -73,7 +73,6 @@ main {
     background: rgb(40, 39, 39) url('imagens/cobra-kai-background-1320.jpg') center center no-repeat scroll;
     background-size: cover;
     height: 84vh;
-    width: 96vw;
 }
 
 section {
