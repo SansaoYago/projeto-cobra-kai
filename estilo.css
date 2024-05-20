@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/*Fonte menu font-family: "Protest Revolution", sans-serif; */
+
 @import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap'); 
 
 @font-face {
@@ -48,7 +48,7 @@ header > h1 {
 header > nav {
     display: inline-block;
     position: relative;
-    left: 13%;
+    left: 8%;
     
 }
 
@@ -74,11 +74,11 @@ main {
     background: rgb(40, 39, 39) url('imagens/cobra-kai-background-1320.jpg') center center no-repeat scroll;
     background-size: cover;
     height: 84vh;
-    
+    width: 96vw;
 }
 
 section {
-    
+    min-width: 280px;
     max-width: 1000px;
     margin: auto;
     padding: 10px;
