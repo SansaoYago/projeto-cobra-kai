@@ -81,27 +81,50 @@ section {
     min-width: 290px;
     max-width: 1200px;
     margin: auto;
-    padding: 10px;
+    padding: 30px 20px;
     height: 95%;
 }
 
-main section h1 {
-    font: normal 300% var(--fonte-destaque);
-    color: rgb(126, 126, 4);
-    text-transform: uppercase;
-    text-indent: 30px;
-    text-shadow: 2px 2px 1px #b500001e;
-}
-
-main section article {
-    max-width: 400px;
-    text-align: justify;
+nav#corpo {
+    display: inline-block; 
     margin: auto;
+    max-width: 1000px; 
 }
 
-main section article p {
+main section div {
+    display: inline-block;
+    margin: 15px 15px;
+}
+
+main section div a {
+    display: block;
+    text-decoration: none;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#treino {
+    background: white url('imagens/treino01.jpg') center center no-repeat scroll;
+    background-size: cover;
+    width: 400px;
+    height: 300px;
+}
+
+#treino a {
     color: white;
-    font-size: 1.5em;
+    
+}
+
+#galeria {
+    background: white url('imagens/galeria01.jpg') center center no-repeat scroll;
+    background-size: cover;
+    width: 400px;
+    height: 300px;
+}
+
+#galeria a {
+    color: black;
 }
 
 footer {
