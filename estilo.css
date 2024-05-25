@@ -77,7 +77,7 @@ main {
 }
 
 section {
-    background-color: rgba(255, 255, 255, 0.185);
+    background-color: rgba(0, 0, 0, 0.244);
     min-width: 290px;
     max-width: 1200px;
     margin: auto;
@@ -87,10 +87,10 @@ section {
 
 main section h1 {
     font: normal 300% var(--fonte-destaque);
-    color: rgb(91, 91, 3);
+    color: rgb(126, 126, 4);
     text-transform: uppercase;
     text-indent: 30px;
-    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.453);
+    text-shadow: 2px 2px 1px #b500001e;
 }
 
 footer {
