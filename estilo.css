@@ -71,22 +71,25 @@ header > nav > a:hover {
 }
 
 main {
-    background: rgb(40, 39, 39) url('imagens/cobra-kai-background-1320.jpg') center center no-repeat scroll;
+    background: rgb(40, 39, 39) url('imagens/cobra-kai-background-1320.jpg') center center no-repeat fixed;
     background-size: cover;
     height: 84vh;
 }
 
 section {
+    background-color: rgba(0, 0, 0, 0.185);
     min-width: 290px;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
     padding: 10px;
+    height: 95%;
 }
 
 main section h1 {
-    text-align: left;
-    font-size: 3em;
-    text-indent: 10%;
+    font: normal 300% var(--fonte-destaque);
+    color: rgba(91, 91, 3, 0.732);
+    text-transform: uppercase;
+    text-indent: 30px;
 }
 
 footer {
