@@ -105,10 +105,10 @@ main section div a {
 }
 
 #treino {
-    background: white url('imagens/treino01.jpg') center center no-repeat scroll;
+    background: white url('imagens/treino01.jpg') top center no-repeat scroll;
     background-size: cover;
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
 }
 
 #treino a {
@@ -119,8 +119,8 @@ main section div a {
 #galeria {
     background: white url('imagens/galeria01.jpg') center center no-repeat scroll;
     background-size: cover;
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
 }
 
 #galeria a {
