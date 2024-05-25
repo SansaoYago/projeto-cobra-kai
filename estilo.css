@@ -93,6 +93,16 @@ main section h1 {
     text-shadow: 2px 2px 1px #b500001e;
 }
 
+main section article {
+    max-width: 400px;
+    text-align: justify;
+    margin: auto;
+}
+
+main section article p {
+    color: white;
+}
+
 footer {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: black;
