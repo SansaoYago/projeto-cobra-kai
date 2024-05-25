@@ -73,7 +73,7 @@ header > nav > a:hover {
 main {
     background: rgb(40, 39, 39) url('imagens/cobra-kai-background-1320.jpg') center center no-repeat fixed;
     background-size: cover;
-    height: 84vh;
+    height: 100vh;
 }
 
 section {
@@ -82,49 +82,7 @@ section {
     max-width: 1200px;
     margin: auto;
     padding: 30px 20px;
-    height: 95%;
-}
-
-nav#corpo {
-    display: block; 
-    margin: auto;
-    max-width: 900px; 
-}
-
-main section div {
-    display: inline-block;
-    margin: 15px 15px;
-}
-
-main section div a {
-    display: block;
-    text-decoration: none;
-    font-size: 3em;
-    font-weight: bold;
-    text-align: center;
-}
-
-#treino {
-    background: white url('imagens/treino01.jpg') top center no-repeat scroll;
-    background-size: cover;
-    width: 300px;
-    height: 200px;
-}
-
-#treino a {
-    color: white;
-    
-}
-
-#galeria {
-    background: white url('imagens/galeria01.jpg') center center no-repeat scroll;
-    background-size: cover;
-    width: 300px;
-    height: 200px;
-}
-
-#galeria a {
-    color: black;
+    height: 92vh;
 }
 
 footer {
