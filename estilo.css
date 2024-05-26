@@ -79,17 +79,24 @@ main {
 }
 
 section {
+    display: block;
     background-color: rgba(0, 0, 0, 0.653);
     min-width: 290px;
-    max-width: 1200px;
+    max-width: 850px;
     margin: auto;
     padding: 30px 20px;
     height: 92vh;
 }
 
-figure img {
-    display: block;
+
+figure  {
+    display: inline-block;
     max-width: 440px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+figure img {
     border-radius: 8px;
 }
 
@@ -99,7 +106,7 @@ figure.foto-legenda {
     box-shadow: 1px 1px 4px black;
     border-radius: 8px;
     max-width: 440px;
-    margin: auto;
+    height: 300px;
 }
 
 figure.foto-legenda img {
@@ -111,9 +118,10 @@ figure.foto-legenda figcaption {
     opacity: 0;
     position: absolute;
     top: 0px;
-    background-color: rgba(0, 0, 0, 0.266);
+    background-color: rgba(0, 0, 0, 0.433);
     color: white;
     text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.421);
     width: 100%;
     height: 100%;
     padding: 10px;
@@ -125,7 +133,6 @@ figure.foto-legenda figcaption p {
     position: absolute;
     font-family: var(--fonte-destaque);
     font-size: 3em;
-    
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
