@@ -61,13 +61,15 @@ header > nav > a {
     margin-right: 20px;
     padding: 5px 8px 5px 8px;
     transition-duration: 0.6s;
-    border-radius: 4px;
+    border-radius: 8px;
 }
 
 header > nav > a:hover {
     background-color: rgba(89, 2, 2, 0.549);
     color: white;
-    font-weight: 500;
+    font-weight: 600;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.396);
+    transition: color 1s;
 }
 
 main {
@@ -83,6 +85,55 @@ section {
     margin: auto;
     padding: 30px 20px;
     height: 92vh;
+}
+
+figure img {
+    display: block;
+    max-width: 440px;
+    border-radius: 8px;
+}
+
+figure.foto-legenda {
+    position: relative;
+    border: 1px solid rgba(133, 133, 133, 0.114);
+    box-shadow: 1px 1px 4px black;
+    border-radius: 8px;
+    max-width: 440px;
+    margin: auto;
+}
+
+figure.foto-legenda img {
+    width: 100%;
+    height: 100%;
+}
+
+figure.foto-legenda figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.266);
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure.foto-legenda figcaption p {
+    position: absolute;
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+figure.foto-legenda:hover figcaption {
+    opacity: 1;
+
 }
 
 footer {
