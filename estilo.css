@@ -76,7 +76,6 @@ main {
     background: rgb(40, 39, 39) url('imagens/cobra-kai-background-1320.jpg') center center no-repeat fixed;
     background-size: cover;
     max-width: 90vw;
-    height: 950px;
     margin: auto;
 }
 
@@ -86,8 +85,9 @@ article {
 
 aside {
     display: flexbox;
-    max-width: 650px;
+    width: 50%;
     margin: auto;
+    padding-bottom: 20px;
 }
 
 aside figure {
