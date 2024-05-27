@@ -75,7 +75,8 @@ header > nav > a:hover {
 main {
     background: rgb(40, 39, 39) url('imagens/cobra-kai-background-1320.jpg') center center no-repeat scroll;
     background-size: cover;
-    
+    max-width: 900px;
+    min-width: 280px;
     margin: auto;
 }
 
@@ -86,6 +87,7 @@ article {
 aside {
     display: block;
     max-width: 633px;
+    min-width: 270px;
     padding: 20px 15%;
     margin: auto;
 }
