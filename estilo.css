@@ -75,7 +75,9 @@ header > nav > a:hover {
 main {
     background: rgb(40, 39, 39) url('imagens/cobra-kai-background-1320.jpg') center center no-repeat fixed;
     background-size: cover;
+    max-width: 90vw;
     height: 100vh;
+    margin: auto;
 }
 
 section {
