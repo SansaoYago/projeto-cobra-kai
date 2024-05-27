@@ -81,7 +81,7 @@ main {
 section {
     display: block;
     background-color: rgba(0, 0, 0, 0.653);
-    min-width: 290px;
+    min-width: 280px;
     max-width: 850px;
     margin: auto;
     padding: 30px 20px;
