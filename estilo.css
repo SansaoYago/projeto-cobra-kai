@@ -79,6 +79,7 @@ main {
     max-width: 900px;
     min-width: 280px;
     margin: auto;
+    padding: 15px;
 }
 
 article {
@@ -89,7 +90,6 @@ aside {
     display: block;
     max-width: 633px;
     min-width: 270px;
-    padding: 20px 15%;
     margin: auto;
 }
 
