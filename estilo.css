@@ -20,7 +20,8 @@
 }
 
 body {
-    background-color: black;
+    background: black url('imagens/caveira02.jpg') center center no-repeat fixed;
+    background-size: cover;
 }
 
 header {
