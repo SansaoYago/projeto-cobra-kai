@@ -86,13 +86,14 @@ article {
 aside {
     display: block;
     max-width: 633px;
-    padding: 20px 50px;
+    padding: 20px 20%;
     margin: auto;
 }
 
 figure.foto-legenda {
     display: inline-block;
     position: relative;
+    margin: 15px 5px;
     width: 300px;
     height: 250px;
     border-radius: 12px;
