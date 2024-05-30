@@ -20,8 +20,7 @@
 }
 
 body {
-    background: black url('imagens/caveira02.jpg') center center no-repeat fixed;
-    background-size: cover;
+    background: black;
 }
 
 header {
@@ -76,10 +75,10 @@ header > nav > a:hover {
 main {
     background: rgb(40, 39, 39) url('imagens/cobra-kai-background-1320.jpg') center center no-repeat scroll;
     background-size: cover;
-    max-width: 800px;
     min-width: 280px;
     margin: auto;
     padding: 15px;
+    height: 87vh;
 }
 
 footer {
