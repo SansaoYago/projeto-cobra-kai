@@ -10,6 +10,10 @@ Tv: acima de 1200px
 */
 
 @media screen and (max-width: 768px) {
+    nav {
+        display: block;
+    }
+    
     main {
         background-image: none;
         background-color: black;
