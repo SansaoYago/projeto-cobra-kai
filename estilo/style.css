@@ -55,14 +55,23 @@ menu > ul {
 }
 
 menu > ul > li {
-    border-top: 2px solid rgba(255, 255, 255, 0.138);
-    padding: 10px 0px;
+    border-top: 2px solid rgba(255, 255, 255, 0.138); 
 }
 
 menu > ul > li > a {
+    display: block;
+    padding: 10px;
     font-family: var(--font-menu);
     color: #ad1d22;
     letter-spacing: .2em;
     font-size: 1.6em;
     text-decoration: none;
+    transition: .6s
+    ;
+}
+
+menu > ul > li > a:hover {
+    background-color: #86181c;
+    color: white;
+    
 }
