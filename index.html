@@ -12,8 +12,14 @@
             src: url('fontes/Another\ Danger\ -\ Demo.otf') format(opentype);
         }    
 
+        @font-face {
+            font-family: 'menu';
+            src: url('fontes/F-Rotten_Font.ttf') format(truetype);
+            font-weight: normal;
+        }
         :root {
             --font-cobra-kai: 'cobra-kai', cursive;
+            --font-menu: 'menu', cursive;
         }
         
         * {
@@ -45,7 +51,7 @@
 
         menu {
             background-color: #070908;
-            padding: 5px;
+            padding: 8px;
         }
 
         menu > ul {
@@ -58,8 +64,18 @@
 
         menu > ul > li > a {
             text-decoration: none;
-            padding: 10px;
+            font-family: var(--font-menu);
+            font-size: 1.5em;
+            letter-spacing: .1em;
+            padding: 8px 10px;
+            color: rgba(255, 255, 255, 0.578);
+            transition: .4s;
+        }
+
+        menu > ul > li > a:hover {
             color: white;
+            background-color: #94161a;
+            border-radius: 6px;
         }
         /*configurações portrait */
 
