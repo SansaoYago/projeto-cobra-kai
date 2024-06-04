@@ -25,3 +25,21 @@ html, body {
     width: 100vw;
     height: 100vh;
 }
+
+header {
+
+}
+
+header > h1 {
+    position: absolute;
+    left: 120px;
+    top: 2%;
+    display: inline-block;
+    font-family: var(--font-cobra-kai);
+    letter-spacing: .2em;
+}
+
+span#burguer {
+    display: block;
+    text-align: center;
+}
