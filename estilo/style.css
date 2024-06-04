@@ -39,19 +39,18 @@ header > h1 {
     display: inline-block;
     font-family: var(--font-cobra-kai);
     letter-spacing: .5em;
-    font-size: 4em;
+    font-size: 150%;
     color: #CF2025;
     left: 110px;
 }
 
 menu {
-    background-color: #070908;
-    padding: 8px;
+
 }
 
 span#burger {
-    color: white;
-    display: none;
+   display: block;
+   color: rgba(255, 255, 255, 0.57);
 }
 
 menu > ul {
