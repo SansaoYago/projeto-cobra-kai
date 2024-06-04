@@ -27,11 +27,12 @@ html, body {
 }
 
 header {
-
+    background-color: #070908;
 }
 
 header > h1 {
     position: absolute;
+    color: #ad1d22;
     left: 120px;
     top: 2%;
     display: inline-block;
@@ -41,9 +42,19 @@ header > h1 {
 
 span#burguer {
     display: block;
+    color: white;
     text-align: center;
 }
 
 menu > ul {
+    text-align: center;
     list-style: none;
+}
+
+menu > ul > li > a {
+    font-family: var(--font-menu);
+    color: #ad1d22;
+    letter-spacing: .2em;
+    font-size: 1.5em;
+    text-decoration: none;
 }
