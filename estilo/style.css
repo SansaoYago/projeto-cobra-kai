@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: 'cobra-kai';
-    src: url('fontes/Another\ Danger\ -\ Demo.otf') format(opentype);
+    src: url('../fontes/Another\ Danger\ -\ Demo.otf') format(opentype);
 }    
 
 @font-face {
     font-family: 'menu';
-    src: url('fontes/F-Rotten_Font.ttf') format(truetype);
+    src: url('../fontes/F-Rotten_Font.ttf') format(truetype);
     font-weight: normal;
 }
 :root {
