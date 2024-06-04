@@ -41,9 +41,12 @@ header > h1 {
 }
 
 span#burguer {
+    background-color: #86181c;
+    font-size: 2em;
+    padding: 2px;
     display: block;
-    color: white;
     text-align: center;
+    cursor: pointer;
 }
 
 menu > ul {
@@ -51,10 +54,15 @@ menu > ul {
     list-style: none;
 }
 
+menu > ul > li {
+    border-top: 2px solid rgba(255, 255, 255, 0.138);
+    padding: 10px 0px;
+}
+
 menu > ul > li > a {
     font-family: var(--font-menu);
     color: #ad1d22;
     letter-spacing: .2em;
-    font-size: 1.5em;
+    font-size: 1.6em;
     text-decoration: none;
 }
