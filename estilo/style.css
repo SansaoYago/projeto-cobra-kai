@@ -43,3 +43,7 @@ span#burguer {
     display: block;
     text-align: center;
 }
+
+menu > ul {
+    list-style: none;
+}
