@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'cobra-kai';
+    src: url('fontes/Another\ Danger\ -\ Demo.otf') format(opentype);
+}    
+
+@font-face {
+    font-family: 'menu';
+    src: url('fontes/F-Rotten_Font.ttf') format(truetype);
+    font-weight: normal;
+}
+:root {
+    --font-cobra-kai: 'cobra-kai', cursive;
+    --font-menu: 'menu', cursive;
+}
+
+* {
+        padding: 0px;
+        margin: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+header {
+    position: relative;
+    background-color: #070908;
+    height: 120px;
+}
+
+header > h1 {
+    position: absolute;
+    display: inline-block;
+    font-family: var(--font-cobra-kai);
+    letter-spacing: .5em;
+    font-size: 4em;
+    color: #CF2025;
+    left: 110px;
+}
+
+menu {
+    background-color: #070908;
+    padding: 8px;
+}
+
+span#burger {
+    color: white;
+    display: none;
+}
+
+menu > ul {
+    list-style: none;
+}
+
+menu > ul > li {
+    display: inline;
+}
+
+menu > ul > li > a {
+    text-decoration: none;
+    font-family: var(--font-menu);
+    font-size: 1.5em;
+    letter-spacing: .1em;
+    padding: 8px 10px;
+    color: rgba(255, 255, 255, 0.578);
+    transition: .4s;
+}
+
+menu > ul > li > a:hover {
+    color: white;
+    background-color: #94161a;
+    border-radius: 6px;
+}
