@@ -49,6 +49,10 @@ span#burguer {
     cursor: pointer;
 }
 
+menu {
+    display: none;
+}
+
 menu > ul {
     text-align: center;
     list-style: none;
