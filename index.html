@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="icones/favicon-cobra.ico" type="image/x-icon">
     <title>Cobra Kai</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"rel="stylesheet" />
     <style>
         /*configurações gerais */
         @font-face {
@@ -54,6 +55,11 @@
             padding: 8px;
         }
 
+        span#burger {
+            color: white;
+            display: none;
+        }
+
         menu > ul {
             list-style: none;
         }
@@ -82,6 +88,17 @@
             header > h1 {
                 font-size: 2em;
             }
+
+            span#burguer {
+                display: block;
+                margin-top: 16px;
+                text-align: center;
+                border: 2px solid black;
+            }
+
+            menu {
+                display: none;
+            }
         }
         /*configurações landascape */
     </style>
@@ -90,6 +107,7 @@
     <header>
         <img src="imagens/kyokushin.jpg" alt="">
         <h1>Cobra Kai</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
         <menu>
             <ul>
                 <li><a href="#">Treino</a></li>
