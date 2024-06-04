@@ -5,19 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="icones/favicon-cobra.ico" type="image/x-icon">
     <title>Cobra Kai</title>
-    <link rel="stylesheet" href="estilos/mobile.css">
-    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <style>
+        /*configurações gerais */
+        @font-face {
+            font-family: 'cobra-kai';
+            src: url('fontes/Another\ Danger\ -\ Demo.otf') format(opentype);
+        }    
+
+        :root {
+            --font-cobra-kai: 'cobra-kai', cursive;
+        }
+        
+        * {
+                padding: 0px;
+                margin: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+        html, body {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        header {
+            position: relative;
+            background-color: #070908;
+            height: 120px;
+        }
+
+        header > h1 {
+            position: absolute;
+            display: inline-block;
+            font-family: var(--font-cobra-kai);
+            letter-spacing: .5em;
+            font-size: 3em;
+            color: #CF2025;
+        }
+
+        menu {
+            background-color: #070908;
+        }
+
+        menu > ul {
+            list-style: none;
+        }
+
+        menu > ul > li {
+            display: inline;
+        }
+
+        menu > ul > li > a {
+            text-decoration: none;
+            padding: 10px;
+            color: white;
+        }
+        /*configurações portrait */
+
+        /*configurações landascape */
+    </style>
 </head>
 <body>
     <header>
-        
+        <img src="imagens/kyokushin.jpg" alt="">
+        <h1>Cobra Kai</h1>
+        <menu>
+            <ul>
+                <li><a href="#">Treino</a></li>
+                <li><a href="#">Galeria</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </menu>
     </header>
-
     <main>
 
     </main>
     <footer>
-
+        
     </footer>
 </body>
 </html>
