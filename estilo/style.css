@@ -10,6 +10,7 @@
     src: url('../fontes/F-Rotten_Font.ttf') format(truetype);
     font-weight: normal;
 }
+
 :root {
     --font-cobra-kai: 'cobra-kai', cursive;
     --font-menu: 'menu', cursive;
