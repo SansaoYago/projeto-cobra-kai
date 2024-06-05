@@ -50,7 +50,7 @@ header > h1 {
     letter-spacing: .2em;
 }
 
-header > img#clube-da-luta {
+header > a > img#clube-da-luta {
     display: none;
 }
 
