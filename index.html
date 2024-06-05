@@ -13,8 +13,8 @@
     <header>
         <img src="imagens/kyokushin.jpg" alt="">
         <h1>Cobra Kai</h1>
-        <span id="burguer" class="material-symbols-outlined">menu</span>
-        <menu>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="itens">
             <ul>
                 <li><a href="#">Treino</a></li>
                 <li><a href="#">Galeria</a></li>
@@ -29,5 +29,14 @@
     <footer>
         <p>Site Desenvolvido por <strong>Cristian Yago</strong></p>
     </footer> 
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
