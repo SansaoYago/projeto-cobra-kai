@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
 @media screen and (orientation: landscape) {
+    
+    header > a > img#clube-da-luta {
+        display: inline-block;
+    }
+    
     span#burguer {
         display: none;
     }
