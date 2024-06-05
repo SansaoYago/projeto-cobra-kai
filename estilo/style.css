@@ -26,6 +26,14 @@ html, body {
     height: 100vh;
 }
 
+body {
+    background-image: linear-gradient(to bottom, black, rgb(77, 77, 77));
+}
+
+main {
+    height: 74vh;
+}
+
 header {
     background-color: #070908;
 }
@@ -78,4 +86,20 @@ menu > ul > li > a:hover {
     background-color: #86181c;
     color: white;
     border-radius: 8px;
+}
+
+footer {
+    background-color: #070908;
+}
+
+footer > p {
+    color: rgba(255, 255, 255, 0.533);
+    text-align: center;
+    font-weight: bold;
+    padding: 6px;
+}
+
+footer > p > strong {
+    color: white;
+    font-weight: bolder;
 }
