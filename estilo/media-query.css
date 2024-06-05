@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (orientation: landscape) and (width: 768px) {
+@media screen and (orientation: landscape) {
     span#burguer {
         display: none;
     }
