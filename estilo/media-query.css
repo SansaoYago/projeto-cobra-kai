@@ -1,11 +1,21 @@
 @charset "UTF-8";
 
-@media screen and (orientation: landscape) and (min-width: 768px) {
+@media screen and (orientation: landscape) and (max-width: 768px) {
     span#burguer {
         display: none;
     }
     menu {
         display: block;
+    }
+
+    menu > ul {
+        text-align: left;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+        padding: 10px;
+        border: none;
     }
 }
 
