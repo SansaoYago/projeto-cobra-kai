@@ -24,6 +24,17 @@
         font-size: 4em;
         top: -2%;
     }
+
+    header > a > img#clube-da-luta {
+        position: absolute;
+        top: 10px;
+        left: 89%;
+        display: inline-block;
+        width: 60px;
+        border-radius: 50%;
+        border: 1px solid white;
+        box-sizing: border-box;
+    }
     
     span#burguer {
         display: none;

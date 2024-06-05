@@ -36,6 +36,7 @@ main {
 }
 
 header {
+    position: relative;
     background-color: #070908;
 }
 
@@ -47,6 +48,10 @@ header > h1 {
     display: inline-block;
     font-family: var(--font-cobra-kai);
     letter-spacing: .2em;
+}
+
+header > img#clube-da-luta {
+    display: none;
 }
 
 span#burguer {
