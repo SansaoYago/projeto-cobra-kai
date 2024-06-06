@@ -100,9 +100,32 @@ main > article {
 }
 
 main > article > h2 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #070908;
     text-transform: uppercase;
     text-align: center;
+}
+
+main > article > h3 abbr {
+    text-decoration: none;
+}
+
+main > article > h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-indent: 10px;
+    margin: 20px 0px;
+}
+
+main > article > p {
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 1.5em;
+}
+
+main a {
+    text-decoration: none;
+    color: #AD1D22;
 }
 
 footer {
