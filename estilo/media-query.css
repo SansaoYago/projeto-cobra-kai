@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (orientation: landscape) {
+@media screen and (orientation: landscape) and (min-width: 722px) {
     
     header > a > img#clube-da-luta {
         position: absolute;

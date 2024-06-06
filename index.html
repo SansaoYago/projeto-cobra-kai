@@ -19,6 +19,7 @@
             <ul>
                 <li><a href="#">Treino</a></li>
                 <li><a href="#">Galeria</a></li>
+                <li><a href="#">Eventos</a></li>
                 <li><a href="#">Contato</a></li>
                 <li><a href="#">Sobre</a></li>
             </ul>
@@ -26,7 +27,8 @@
     </header>
     <main>
         <article>
-            
+            <h2>Karate Kyokushin</h2>
+            <p></p>
         </article>
     </main>
     <footer>
@@ -38,6 +40,14 @@
                 itens.style.display = 'block'
             } else {
                 itens.style.display = 'none'
+            }
+        }
+
+        function mudouTamanho() {
+            if (window.innerWidth <= 721) {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
             }
         }
 
