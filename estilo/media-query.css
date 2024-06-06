@@ -9,8 +9,15 @@
         display: inline-block;
         width: 60px;
         border-radius: 50%;
-        border: 1px solid white;
+        box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.171);
         box-sizing: border-box;
+    }
+
+    header > a > img#clube-da-luta:hover {
+        transform: translate(-3%, -3%);
+        border: 1px solid #ad1d227b;
+        box-shadow: 1px 1px 1px 1px #ad1d227b;
+        transition: transform .4s;
     }
 
     header > h1 {
@@ -48,14 +55,17 @@
         display: inline-block;
         width: 60px;
         border-radius: 50%;
-        border: 1px solid white;
+        box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.171);
         box-sizing: border-box;
     }
-
-    header > a > img#clube-da-luta:hover {
-        
-    }
     
+    header > a > img#clube-da-luta:hover {
+        transform: translate(-3%, -3%);
+        border: 1px solid #ad1d227b;
+        box-shadow: 1px 1px 1px 1px #ad1d227b;
+        transition: transform .4s;
+    }   
+
     span#burguer {
         display: none;
     }
