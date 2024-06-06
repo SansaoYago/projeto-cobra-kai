@@ -23,16 +23,12 @@
     }
 
 html, body {
-    
+    background-image: linear-gradient(to bottom, black, rgb(77, 77, 77));
     height: 100vh;
 }
 
-body {
-    background-image: linear-gradient(to bottom, black, rgb(77, 77, 77));
-}
-
 main {
-    height: 74vh;
+    height: 70vh;
 }
 
 header {
