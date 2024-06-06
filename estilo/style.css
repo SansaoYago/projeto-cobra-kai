@@ -91,6 +91,10 @@ main {
     padding: 10px;
 }
 
+article#desktop {
+    display: none;
+}
+
 main > article {
     width: 80vw;
     background-color: rgba(255, 255, 255, 0.442);

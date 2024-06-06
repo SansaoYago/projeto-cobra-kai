@@ -100,4 +100,12 @@
         background-position: fixed;
         background-size: cover;
     }
+
+    article#mobile {
+        display: none;
+    }
+
+    main > article {
+        max-width: 800px;
+    }
 }
