@@ -117,12 +117,6 @@ main > article > h3 {
     margin: 20px 0px;
 }
 
-main > article > p {
-    text-align: justify;
-    text-indent: 20px;
-    line-height: 1.5em;
-}
-
 main a {
     text-decoration: none;
     color: #AD1D22;
