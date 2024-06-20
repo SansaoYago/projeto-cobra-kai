@@ -7,15 +7,22 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family: 'fight';
+    src: url('../fontes/F-Rotten_Font.ttf') format(truetype);
+    font-weight: normal;
+}
+
 :root {
     --cor01: #070908;
     --cor02: #D21D26;
     --cor03: #770F14;
 
     --fonte-cobrakai: 'cobra-kai', cursive;
+    --fonte-fight: 'fight', cursive;
 }
 
-html, body {
+* {
     padding: 0px;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
@@ -26,14 +33,23 @@ header {
     background-color: var(--cor01);
 }
 
-header img#clube-da-luta {
-    display: none;
-}
-
 header > h1 {
     position: absolute;
     display: inline;
     font-family: var(--fonte-cobrakai);
     color: var(--cor02);
     letter-spacing: .3em;
+}
+
+header > menu > ul > li {
+    display: inline-block;
+}
+
+header > menu > ul > li > a {
+    text-decoration: none;
+    font-family: var(--fonte-fight);
+    font-size: 1.5em;
+    letter-spacing: .1em;
+    color: white;
+    padding: 8px;
 }

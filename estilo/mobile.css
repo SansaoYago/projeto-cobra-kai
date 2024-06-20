@@ -1,2 +1,8 @@
 @charset "UTF-8";
 /* Celulares */
+
+@media screen and (orientation: portrait) and (max-width: 480px) {
+    header img#clube-da-luta {
+        display: none;
+    }
+}

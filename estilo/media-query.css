@@ -1,13 +1,30 @@
 @charset "UTF-8";
 /*Telas maiores */
 
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    header  img#clube-da-luta {
+        position: absolute;
+        display: inline-block;
+        width: 70px;
+        top: 15px;
+        left: 80%;
+        border-radius: 50%;
+    }
+    
+    header > h1 {
+        margin: 5px;
+        text-indent: 20px;
+        font-size: 3em;
+    }
+}
+
 @media screen and (min-width: 768px) {
     header  img#clube-da-luta {
         position: absolute;
         display: inline-block;
         width: 70px;
         top: 15px;
-        left: 95%;
+        left: 90%;
         border-radius: 50%;
     }
     
