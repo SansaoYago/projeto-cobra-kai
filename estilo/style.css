@@ -41,6 +41,11 @@ header > h1 {
     letter-spacing: .3em;
 }
 
+#burguer {
+    display: none;
+    color: white;
+}
+
 header > menu > ul > li {
     display: inline-block;
 }
