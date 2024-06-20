@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'cobra-kai';
+    src: url('../fontes/Another\ Danger\ -\ Demo.otf') format(opentype);
+    font-size: normal;
+    font-weight: normal;
+}
+
+:root {
+    --cor01: #070908;
+    --cor02: #D21D26;
+    --cor03: #770F14;
+
+    --fonte-cobrakai: 'cobra-kai', cursive;
+}
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    position: relative;
+    background-color: var(--cor01);
+}
+
+header img#clube-da-luta {
+    display: none;
+}
+
+header > h1 {
+    position: absolute;
+    display: inline;
+    font-family: var(--fonte-cobrakai);
+    color: var(--cor02);
+    letter-spacing: .3em;
+}
