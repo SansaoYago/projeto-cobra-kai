@@ -2,14 +2,14 @@
 
 @font-face {
     font-family: 'cobra-kai';
-    src: url('/fontes/Another\ Danger\ -\ Demo.otf') format(opentype);
+    src: url('../fontes/Another\ Danger\ -\ Demo.otf') format(opentype);
     font-weight: normal;
     font-size: normal;
 }
 
 @font-face {
     font-family: 'destaque';
-    src: url('/fontes/F-Rotten_Font.ttf') format(truetype);
+    src: url('../fontes/F-Rotten_Font.ttf') format(truetype);
     font-weight: normal;
 }
 
@@ -53,6 +53,7 @@ span#burguer {
     display: block;
     color: white;
     text-align: center;
+    font-size: 1.3em;
     padding: 10px;
     cursor: pointer;
 }
@@ -60,6 +61,7 @@ span#burguer {
 span#burguer:hover {
     background-color: var(--cor2);
     color: #070908;
+    transition: .3s;
 }
 
 menu {
