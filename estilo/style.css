@@ -46,11 +46,10 @@ header {
 header > h1 {
     position: absolute;
     top: 5%;
-    left: 25%;
     display: inline;
     font-family: var(--fonte-cobra-kai);
     color: var(--cor3);
-    font-size: 2em;
+    font-size: 180%;
     letter-spacing: .2em;
 }
 
