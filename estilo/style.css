@@ -94,6 +94,10 @@ menu > ul > li > a:hover {
     transition: .6s;
 }
 
+main {
+    height: 70vh;
+}
+
 footer {
     background-color: var(--cor1);
     text-align: center;

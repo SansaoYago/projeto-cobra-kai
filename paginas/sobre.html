@@ -7,7 +7,6 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"rel="stylesheet" />
     <link rel="stylesheet" href="../estilo/style.css">
-    <link rel="stylesheet" href="../estilo/media-query.css">
     <style>
 
         main > article {
@@ -30,8 +29,11 @@
         }
 
         article > p > strong > a {
+            background-color: #51484956;
             text-decoration: none;
             color: #83191F;
+            padding: 5px;
+            border-radius: 8px;
         }
 
         article > p > strong > a:hover {
@@ -40,6 +42,10 @@
             padding: 5px;
             border-radius: 8px;
             transition: .5s;
+        }
+
+        article > p > strong > a::after {
+            content: '🔗';
         }
 
         article > figure > img {
