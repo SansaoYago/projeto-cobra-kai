@@ -45,12 +45,13 @@ header {
 
 header > h1 {
     position: absolute;
-    top: 5%;
+    top: 10px;
     display: inline;
     font-family: var(--fonte-cobra-kai);
     color: var(--cor3);
-    font-size: 10vw;
+    font-size: 8vw;
     letter-spacing: .2em;
+    padding-bottom: 5px;
 }
 
 span#burguer {
@@ -59,7 +60,7 @@ span#burguer {
     color: white;
     text-align: center;
     font-size: 1.3em;
-    padding-bottom: 10px;
+    padding: 8px;
     cursor: pointer;
 }
 
