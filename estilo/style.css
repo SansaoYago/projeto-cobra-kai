@@ -46,7 +46,7 @@ header > h1 {
     display: inline;
     font-family: var(--fonte-cobra-kai);
     color: var(--cor3);
-    font-size: 12vw;
+    font-size: 190%;
     letter-spacing: .2em;
 }
 
