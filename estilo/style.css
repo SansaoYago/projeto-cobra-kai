@@ -40,13 +40,17 @@ body {
 
 header {
     background-color: var(--cor1);
+    position: relative;
 }
 
 header > h1 {
+    position: absolute;
+    top: 5%;
+    left: 25%;
     display: inline;
     font-family: var(--fonte-cobra-kai);
     color: var(--cor3);
-    font-size: 10vw;
+    font-size: 2em;
     letter-spacing: .2em;
 }
 
