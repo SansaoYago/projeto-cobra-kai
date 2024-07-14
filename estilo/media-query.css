@@ -80,8 +80,8 @@ Tv: acima de 1200px
     header > h1 {
         position: absolute;
         font-size: 2.5em;
-        top: 10px;
-        left: 15%;
+        top: -5%;
+        left: 10%;
     }
 
     span#burguer {
@@ -105,8 +105,8 @@ Tv: acima de 1200px
     }
 
     main {
-        background: url('../imagens/cobra-kai-background-1320.jpg') center center no-repeat fixed;
+        background: url('../imagens/cobra-kai-background-1320.jpg') center center no-repeat scroll;
         background-size: cover;
-        height: 90vh;
+        
     }
 }
