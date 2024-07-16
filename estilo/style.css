@@ -17,6 +17,12 @@
 img#clube-da-luta {
     display: none;
 }
+
+img#shihan {
+    display: block;
+    margin: auto;
+    min-width: 50%;
+}
 /* formatação de img */
 
 :root {

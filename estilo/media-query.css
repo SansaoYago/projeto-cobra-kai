@@ -12,6 +12,10 @@ Tv: acima de 1200px
 
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    /* Formatação de img */
+    img#shihan {
+        display: inline;
+    }
 
     img#clube-da-luta {
         display: inline-block;
@@ -20,6 +24,7 @@ Tv: acima de 1200px
         float: right;
         margin: 20px;
     }
+    /* Formatação de img */
 
     img#clube-da-luta:hover {
         transform: translate(-5%, -7%);
@@ -30,8 +35,8 @@ Tv: acima de 1200px
 
     header > h1 {
         position: absolute;
-        font-size: 2em;
-        left: 20%;
+        font-size: 2.3em;
+        left: 15%;
     }
 
     span#burguer {
@@ -55,13 +60,30 @@ Tv: acima de 1200px
     }
 
     main {
-        background: url('../imagens/cobra-kai-background-1320.jpg') center center no-repeat fixed;
+        background: url('../imagens/cobra-kai-background-1320.jpg') center center no-repeat scroll;
         background-size: cover;
         height: 90vh;
+    }
+
+    /* Página Sobre */
+    article > figure > figcaption {
+        display: inline-block;
+        font-size: 1.1em;
+        font-weight: 600;
+        width: 320px;
+        text-align: left;
+        position: absolute;
+        top: 30%;
     }
 }
 
 @media screen and (min-width: 992px) {
+    /* Formatação de IMG */
+    img#shihan {
+        display: inline-block;
+        max-width: 50%;
+    }
+
     img#clube-da-luta {
         display: inline-block;
         border-radius: 50%;
@@ -69,6 +91,7 @@ Tv: acima de 1200px
         float: right;
         margin: 20px;
     }
+        /* Formatação de IMG */
 
     img#clube-da-luta:hover {
         transform: translate(-5%, -7%);
@@ -80,8 +103,8 @@ Tv: acima de 1200px
     header > h1 {
         position: absolute;
         font-size: 2.5em;
-        top: -5%;
-        left: 10%;
+        
+        left: 15%;
     }
 
     span#burguer {
@@ -108,5 +131,20 @@ Tv: acima de 1200px
         background: url('../imagens/cobra-kai-background-1320.jpg') center center no-repeat scroll;
         background-size: cover;
         
+    }
+
+    /* Página Sobre */
+    article > figure > figcaption {
+        display: inline-block;
+        font-size: 1.1em;
+        font-weight: 600;
+        width: 320px;
+        text-align: left;
+        position: absolute;
+        top: 30%;
+    }
+
+    article#sobre p {
+        max-width: 900px;
     }
 }
